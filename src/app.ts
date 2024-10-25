@@ -7,6 +7,8 @@ import * as middlewares from './middlewares';
 import api from './api';
 import MessageResponse from './interfaces/MessageResponse';
 
+import ServerlessHttp from 'serverless-http'
+
 require('dotenv').config();
 
 const app = express();
@@ -27,4 +29,5 @@ app.use('/api/v1', api);
 app.use(middlewares.notFound);
 app.use(middlewares.errorHandler);
 
+export const handler = ServerlessHttp(app);
 export default app;
