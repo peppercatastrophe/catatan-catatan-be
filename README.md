@@ -1,18 +1,18 @@
 # WIP Catatan Catatan App (Backend)
 
 TODOs:
-* user auth
-  * register
-  * login
-* create
-* read
-  * index
-    * shorten note content for index view
-    * pagination
-  * getById
-* search
-* update
-* delete
+- [x] user auth
+  - [x] register
+  - [x] login
+- [x] create
+- [x] read
+  - [x] index
+    - [ ] shorten note content for index view
+    - [ ] pagination
+  - [x] getById
+- [x] search
+- [x] update
+- [x] delete
 
 ## Setup
 
